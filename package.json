@@ -1,0 +1,14 @@
+{
+  "name": "caleb-space-arena-multiplayer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "WebSocket relay for the Space Arena HTML game",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "playwright": "^1.60.0",
+    "ws": "^8.18.3"
+  }
+}
